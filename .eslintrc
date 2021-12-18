@@ -6,10 +6,11 @@
     "node": true
   },
   "rules": {
-    "semi": "off",
     "arrow-parens": "off",
     "comma-dangle": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "semi": ["error", "never"],
+    "quotes": [2, "single", { "avoidEscape": true }]
   },
   "extends": ["eslint:recommended", "google"]
 }
